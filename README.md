@@ -3,7 +3,7 @@
 #### -- Project Status: Active
 
 ## Project Intro
-The purpose of this project is to analyze the last 5 seasons of the English Premier League. There are two parts to this project. One focusing on comparing different teams' and formations' performances, including  visualisations and the expected points table for each season. The second part involves a machine learning model predicting match results based on game statistics. Data used in this project can be found [here](https://www.kaggle.com/datasets/mhmdkardosha/premier-league-matches).
+The purpose of this project is to analyze the last 5 seasons of the English Premier League. The analysis contains of two parts. One comparing different teams' and formations' performances, including  visualisations and the expected points table for each season. The second involves machine learning model designed to predict match results based on game statistics. Data used in this project can be found [here](https://www.kaggle.com/datasets/mhmdkardosha/premier-league-matches).
 
 ### Project organisation:
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>

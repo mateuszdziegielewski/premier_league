@@ -3,7 +3,7 @@
 #### -- Project Status: Active
 
 ## Project Intro
-The purpose of this project is to analyze the last 5 seasons of the English Premier League. There are two parts to this project: one focusing on comparing different teams' and formations' performances, including the expected points table for each season, and the second part involves a machine learning model predicting match results based on game statistics. Data used in this project can be found [here]().
+The purpose of this project is to analyze the last 5 seasons of the English Premier League. There are two parts to this project: one focusing on comparing different teams' and formations' performances, including the expected points table for each season, and the second part involves a machine learning model predicting match results based on game statistics. Data used in this project can be found [here](https://www.kaggle.com/datasets/mhmdkardosha/premier-league-matches).
 
 ### Project organisation:
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
@@ -16,7 +16,7 @@ The purpose of this project is to analyze the last 5 seasons of the English Prem
 ### Technologies
 * Python
 
-See the [requirements]().
+See the [requirements](https://github.com/mateuszdziegielewski/premier_league/blob/main/requirements.txt).
 
 ## Project Description
 
@@ -67,10 +67,10 @@ In addition to the main analysis, the project contains a supervised machine lear
 * Support Vector Classification (SVC)
 
 ### Featured Notebooks:
-* [0.01-md-data_cleaning]() - Dropping unwanted columns, dealing with missing values, identifying and deleting incorrect data records.
-* [1.01-md-data_processing]() - Adding new columns for future analysis.
-* [2.01-md-analysis]() - The project's core, containing all the visualizations and tables.
-* [3.01-md-model]() - A supervised machine learning model predicting game results.
+* [0.01-md-data_cleaning](https://github.com/mateuszdziegielewski/premier_league/blob/main/notebooks/0.01-md-data_cleaning.ipynb) - Dropping unwanted columns, dealing with missing values, identifying and deleting incorrect data records.
+* [1.01-md-data_processing](https://github.com/mateuszdziegielewski/premier_league/blob/main/notebooks/1.01-md-data_processing.ipynb) - Adding new columns for future analysis.
+* [2.01-md-analysis](https://github.com/mateuszdziegielewski/premier_league/blob/main/notebooks/2.01-md-analysis.ipynb) - The project's core, containing all the visualizations and tables.
+* [3.01-md-model](https://github.com/mateuszdziegielewski/premier_league/blob/main/notebooks/3.01-md-model.ipynb) - A supervised machine learning model predicting game results.
 
 ### Future Work:
 * Simplifying the code: Utilizing more loops and custom functions to improve code readability and reproducibility so it can be used for different projects in the future.
@@ -78,4 +78,4 @@ In addition to the main analysis, the project contains a supervised machine lear
 * Refining the model: Including more performance metrics, creating a confusion matrix for each method, and identifying the best predictive features.
 
 ### License:
-The original data, as well as the project itself, are based on the Apache-2.0 license. For more details, check the [LICENSE]().
+The original data, as well as the project itself, are based on the Apache-2.0 license. For more details, check the [LICENSE](https://github.com/mateuszdziegielewski/premier_league/blob/main/LICENSE.txt).

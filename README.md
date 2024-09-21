@@ -6,6 +6,7 @@
 The purpose of this project is to analyze the last 5 seasons of the English Premier League. The analysis consists of two parts:
 * Comparing different teams' and formations' performances, including  visualisations and the expected points table for each season
 * Machine learning model designed to predict match results based on game statistics
+
 Data used in this project can be found [here](https://www.kaggle.com/datasets/mhmdkardosha/premier-league-matches).
 
 ### Project organisation:

@@ -9,7 +9,7 @@ The purpose of this project is to analyze the last 5 seasons of the English Prem
 
 Data used in this project can be found [here](https://www.kaggle.com/datasets/mhmdkardosha/premier-league-matches).
 
-### Project organisation:
+### Project organisation
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
 ### Methods Used
@@ -58,10 +58,10 @@ In addition, the following measures are derived from them:
 - *exppoints*: expected points calculated from xgdiff
 - *last_5*: team's points from the last 5 games
 
-### First Part of the Project:
+### First Part of the Project
 The first part of the project is an exploratory data analysis combined with the visual comparison of team and formation performance. Created scatterplots show, for example, which teams score more goals, shoot more effectively, or make better use of possession. These insights also allow for an understanding of the possible play style and character of particular team based on the statistics – whether they are more dominant and possession-oriented or more direct, focusing on creating fewer, but better goal-scoring opportunities. The same approach has been used to analyze formations, but it's important to note that different teams may play the same formation, making the overall results less precise. Nevertheless, it is still interesting to investigate the potential impact of formations on team performance. The analysis also includes each season's final table, but based on expected points, to show which teams exceeded expectations (performing better than they theoretically should) or underperformed (wasting their chances more frequently). The results clearly show that sport is unpredictable and statistics don’t matter if teams can’t convert them into final results.
 
-### Second Part of the Project:
+### Second Part of the Project
 In addition to the main analysis, the project contains a supervised machine learning model designed to predict the result of each match (win, loss, or draw) based on the provided features. It uses different methods and compares their accuracy:
 
 * Logistic Regression

@@ -1,6 +1,6 @@
 # Analysis of the 2020-2024 Premier League Seasons
 
-#### -- Project Status: Active
+#### -- Project Status: Finished
 
 ## Project Intro
 The purpose of this project is to analyze the last 5 seasons of the English Premier League. The analysis consists of two parts:
@@ -70,16 +70,13 @@ In addition to the main analysis, the project contains a supervised machine lear
 * K-Nearest Neighbors
 * Support Vector Classification (SVC)
 
+There are also provided another performance metrics for each model using 'classification_report' function from sklearn, as well as confusion matrices showing exactly what are predicted values and how many of them are predicted correctly
+
 ### Featured Notebooks:
 * [0.01-md-data_cleaning](https://github.com/mateuszdziegielewski/premier_league/blob/main/notebooks/0.01-md-data_cleaning.ipynb) - Dropping unwanted columns, dealing with missing values, identifying and deleting incorrect data records.
 * [1.01-md-data_processing](https://github.com/mateuszdziegielewski/premier_league/blob/main/notebooks/1.01-md-data_processing.ipynb) - Adding new columns for future analysis.
 * [2.01-md-analysis](https://github.com/mateuszdziegielewski/premier_league/blob/main/notebooks/2.01-md-analysis.ipynb) - The project's core, containing all the visualizations and tables.
 * [3.01-md-model](https://github.com/mateuszdziegielewski/premier_league/blob/main/notebooks/3.01-md-model.ipynb) - A supervised machine learning model predicting game results.
-
-### Future Work:
-* Simplifying the code: Utilizing more loops and custom functions to improve code readability and reproducibility so it can be used for different projects in the future.
-* Further analysis: Extending the current analysis, potentially with hypothesis testing.
-* Refining the model: Including more performance metrics, creating a confusion matrix for each method, and identifying the best predictive features.
 
 ### License:
 The original data, as well as the project itself, are based on the Apache-2.0 license. For more details, check the [LICENSE](https://github.com/mateuszdziegielewski/premier_league/blob/main/LICENSE.txt).
